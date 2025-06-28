@@ -46,7 +46,7 @@ const  TopicCreateForm=()=> {
               <Label htmlFor="description">Description</Label>
               <Textarea id="description" name="description" />
             </div>
-            {formState.errors.description && <p className="text-sm text-red-600 mb-4">{formState.errors.description}</p>}
+            {formState.errors.description && <p className="text-sm text-red-600 mb-3">{formState.errors.description}</p>}
             {formState.errors.formError && <div className="border border-red-600 bg-red-200 p-2 rounded mb-3">{formState.errors.formError}</div>}
           </div>
           <DialogFooter>
